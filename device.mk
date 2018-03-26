@@ -51,3 +51,6 @@ PRODUCT_PACKAGES += \
     stml0xx \
     sensors.msm8916 \
     sensorhub.msm8916
+
+# Common Android Go configurations
+$(call inherit-product, build/target/product/go_defaults.mk)
