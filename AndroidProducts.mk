@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_surnia.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_surnia-user \
+    lineage_surnia-userdebug \
+    lineage_surnia-eng
