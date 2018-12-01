@@ -19,7 +19,7 @@
         <value>5</value>
         <value>1.4</value>
     </array>
-    <array name="cpu.speeds">
+    <array name="cpu.core_speeds">
         <value>200000</value>
         <value>400000</value>
         <value>533333</value>
