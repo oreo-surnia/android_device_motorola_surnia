@@ -1,0 +1,12 @@
+cc_library_static {
+    name: "libinit_surnia",
+    recovery_available: true,
+
+	include_dirs: [
+        "system/core/base/include",
+        "system/core/init",
+    ],
+
+    srcs: ["init_surnia.cpp"],
+    static_libs: ["libbase"],
+}
