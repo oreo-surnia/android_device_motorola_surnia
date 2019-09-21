@@ -16,16 +16,13 @@
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 540
+TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
 
-TARGET_GAPPS_ARCH := arm
-TARGET_MINIMAL_APPS := true
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := aosp_surnia
+PRODUCT_NAME := lineage_surnia
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := surnia
